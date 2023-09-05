@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Hanken+Grotesk&family=Inter:wght@400;700&family=Manrope:wght@800&family=Playfair+Display&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <div role="main" class="container">
+    <div class="text">
+      <span>SPLI</span><br>
+      <span>TTER</span>
+    </div>
+    <div class="container-bill">
+      <div class="bill">
+        <label class="title">Bill</label>
+        <label  class="warning ">Can't be zero</label>
+        <div class="input input-bill">
+          <img alt="" src="./assets/images/icon-dollar.svg">
+          <input id="input-bill" class="input-n" class="" type="decimal" placeholder="0" onblur="myblur(this)" onfocus="myfocus(this)">
+        </div>
+      </div>
+      <div class="percentage">
+        <label class="title"> Select Tip %</label>
+        <div id="container-perc" class="container-perc">
+          <button onclick="myclick(this)">5%</button>
+          <button onclick="myclick(this)">10%</button>
+          <button onclick="myclick(this)">15%</button>
+          <button onclick="myclick(this)">25%</button>
+          <button onclick="myclick(this)">50%</button>
+          <input id="custom" type="number" placeholder="Custom" onblur="percent(this)">
+        </div>
+      </div>
+      <div class="number-people">
+        <label class="title">Number of People</label>
+        <label  class="warning">Can't be zero</label>
+        <div class="input input-bill">
+          <img alt="" src="./assets/images/icon-person.svg">
+          <input id="input-number" class="input-n" type="number" placeholder="0" onblur="myblur(this)" onfocus="myfocus(this)">
+        </div>
+      </div>
+      <div class="result">
+        <div class="amount">
+          <label class="tip">Tip Amount </label>
+          <label class="person">/ person </label>
+          <label id="result-tip" class="number">$0.00</label>
+        </div>
+        <div class="amount">
+          <label class="tip">Tip Amount </label>
+          <label class="person">/ person </label>
+          <label id="result-total" class="number">$0.00</label>
+        </div>
+        <button id="reset-button" type="button" onclick="reset(this)" disabled >RESET</button>
+      </div>
+    </div>
+    <div class="attribution">
+      CODED BY <a href="https://github.com/Nisrine-C" target="_blank">NISRINE C</a>.
+  </div>
+</body>
+</html>
+
+ <script src="./assets/javascript/script.js"></script> 
