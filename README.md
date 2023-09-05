@@ -24,8 +24,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-tip-calculator-powered-by-css-grid-and-javascript-HxSo7PSyY5)
+- Live Site URL: [live site URL](https://nisrine-c.github.io/tip-calculator-app-main.github.io/)
 
 ## My process
 
